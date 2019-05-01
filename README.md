@@ -83,7 +83,13 @@ In order to use the API, a baerer token must be obtained. This token can be used
 Example:
 
 ```
-Client id: 7e702c99-6569-43af-a758-935ebdd88082Client secret: 033927ee-03ae-484f-818f-c1961c75136bCombined token: 7e702c99-6569-43af-a758-935ebdd88082: 033927ee-03ae-484f-818f-c1961c75136bURL encoded: 7e702c99-6569-43af-a758-935ebdd88082%3A%20033927ee-03ae-484f-818f-c1961c75136bBase64 encoded:N2U3MDJjOTktNjU2OS00M2FmLWE3NTgtOTM1ZWJkZDg4MDgyJTNBJTIwMDMzOTI3ZWUtMDNhZS00ODRmLTgxOGYtYzE5NjFjNzUxMzZi
+Client id: 7e702c99-6569-43af-a758-935ebdd88082
+Client secret: 033927ee-03ae-484f-818f-c1961c75136b
+Combined token: 7e702c99-6569-43af-a758-935ebdd88082:033927ee-03ae-484f-818f-c1961c75136b
+URL encoded: 7e702c99-6569-43af-a758-935ebdd88082%3A%20033927ee-03ae-484f-818f-c1961c75136b
+Base64 encoded:
+N2U3MDJjOTktNjU2OS00M2FmLWE3NTgtOTM1ZWJkZDg4MDgyJTNBJTIwMDMzOTI3ZWUtMDNhZS00ODRmLTgxO
+GYtYzE5NjFjNzUxMzZi
 
 ```
 
@@ -103,7 +109,11 @@ You must suply a grand_type parameter and the sole clientId in the body like thi
 Example reponse:
  
 ```
-{"access_token": "YmFkN2Y3ZmItOTUzZC00M2YyLWExNmUtYW","expires_in": 3600,"token_type": "Bearer"}
+{
+"access_token": "YmFkN2Y3ZmItOTUzZC00M2YyLWExNmUtYW",
+"expires_in": 3600,
+"token_type": "Bearer"
+}
 
 ```
 
