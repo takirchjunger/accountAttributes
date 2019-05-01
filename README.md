@@ -80,7 +80,7 @@ In order to use the API, a baerer token must be obtained. This token can be used
  2. urlencode this combination
  3. base64encode the urlencoded string
 
-Example:
+Example: (use your credentials, this example does not contain valid credentials)
 
 ```
 Client id: 7e702c99-6569-43af-a758-935ebdd88082
