@@ -64,8 +64,8 @@ In order to use the API, a baerer token must be obtained. This token can be used
 
 | Environment | URL |
 |---|---|
-| TEST | https://idp-test.toegang.org/token |
-| PROD  | https://idp.toegang.org/token|  
+| TEST | https://idp-test.toegang.org/oidc/token |
+| PROD  | https://idp.toegang.org/oidc/token|  
 
 **Method** POST
 
@@ -83,12 +83,12 @@ In order to use the API, a baerer token must be obtained. This token can be used
 Example: (use your credentials, this example does not contain valid credentials)
 
 ```
-Client id: 7e702c99-6569-43af-a758-935ebdd88082
+Client id: 7E702C99-6569-43AF-A758-935EBDD88082
 Client secret: 033927ee-03ae-484f-818f-c1961c75136b
-Combined token: 7e702c99-6569-43af-a758-935ebdd88082:033927ee-03ae-484f-818f-c1961c75136b
-URL encoded: 7e702c99-6569-43af-a758-935ebdd88082%3A033927ee-03ae-484f-818f-c1961c75136b
+Combined token: 7E702C99-6569-43AF-A758-935EBDD88082:033927ee-03ae-484f-818f-c1961c75136b
+URL encoded: 7E702C99-6569-43AF-A758-935EBDD88082%3A033927ee-03ae-484f-818f-c1961c75136b
 Base64 encoded:
-N2U3MDJjOTktNjU2OS00M2FmLWE3NTgtOTM1ZWJkZDg4MDgyJTNBMDMzOTI3ZWUtMDNhZS00ODRmLTgxOGYtYzE5NjFjNzUxMzZi
+N0U3MDJDOTktNjU2OS00M0FGLUE3NTgtOTM1RUJERDg4MDgyJTNBMDMzOTI3ZWUtMDNhZS00ODRmLTgxOGYtYzE5NjFjNzUxMzZi
 
 ```
 
