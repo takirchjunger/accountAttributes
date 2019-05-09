@@ -77,8 +77,7 @@ In order to use the API, a baerer token must be obtained. This token can be used
  The base64clientcredentials string can be constructed by the following steps:
  
  1. Combine client id and client secret with a semicolmn in between.
- 2. urlencode this combination
- 3. base64encode the urlencoded string
+ 2. base64encode the resulted string
 
 Example: (use your credentials, this example does not contain valid credentials)
 
@@ -86,9 +85,8 @@ Example: (use your credentials, this example does not contain valid credentials)
 Client id: 7E702C99-6569-43AF-A758-935EBDD88082
 Client secret: 033927ee-03ae-484f-818f-c1961c75136b
 Combined token: 7E702C99-6569-43AF-A758-935EBDD88082:033927ee-03ae-484f-818f-c1961c75136b
-URL encoded: 7E702C99-6569-43AF-A758-935EBDD88082%3A033927ee-03ae-484f-818f-c1961c75136b
 Base64 encoded:
-N0U3MDJDOTktNjU2OS00M0FGLUE3NTgtOTM1RUJERDg4MDgyJTNBMDMzOTI3ZWUtMDNhZS00ODRmLTgxOGYtYzE5NjFjNzUxMzZi
+N0U3MDJDOTktNjU2OS00M0FGLUE3NTgtOTM1RUJERDg4MDgyOjAzMzkyN2VlLTAzYWUtNDg0Zi04MThmLWMxOTYxYzc1MTM2Yg==
 
 ```
 
