@@ -72,7 +72,7 @@ In order to use the API, a baerer token must be obtained. This token can be used
 **HTTP Headers**
 
  `Content-Type: application/x-www-form-urlencoded`  
- `Authorzation: Basic <base64clientcredetials>`
+ `Authorization: Basic <base64clientcredetials>`
  
  The base64clientcredentials string can be constructed by the following steps:
  
